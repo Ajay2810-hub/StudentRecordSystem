@@ -43,7 +43,7 @@ public class StudentRecordSystem
 		System.out.println("Enter a choice:\n");
 		int task_id = sc.nextInt();
 
-		switch(num)
+		switch(task_id)
 		{
 			case 4:
 				delete_student();
@@ -187,7 +187,7 @@ public class StudentRecordSystem
 
 	        System.out.println(
 	        	"TO UPDATE STUDENT RECORD:\n"+
-	        	"~~~~~~~~~~~~~~~~~~~~~~~~~\n"+
+	        	"~~~~~~~~~~~~~~~~~~~~~~~~~\n"
 	        );
 
 			Scanner sc1 = new Scanner(System.in);
